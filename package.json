@@ -1,0 +1,22 @@
+{
+  "name": "excel_file_reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
